@@ -1,0 +1,94 @@
+body {
+    background-color:rgb(226, 226, 226);
+    background: linear-gradient(to bottom, transparent, rgb(105, 105, 105));
+}
+#contenedor-nav {
+   
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+#icono {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    margin-top: 2px;
+}
+
+#contenedor-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 163px !important;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#texto {
+    text-align: center;
+    margin-top: -200px;
+}
+
+.w3-container h1 {
+    margin: 25px;
+}
+
+/* PAGINA 2 Experiencia laboral*/
+
+#experiencia1 h3, #experiencia2 h3 {
+    margin-top: 20px;
+}
+
+/*PAGINA 3 Formación*/
+#boton{
+    transition: 1s;
+    margin-left: 30px;
+    background-color: teal;
+    color: white;
+}
+
+#boton:hover {
+    background-color: rgb(5, 53, 53);
+    color: white;
+}
+
+#esconder {
+    visibility: hidden
+}
+
+#idioma {
+    margin-top: 18px;
+}
+
+#col1 {
+    margin-top: 20px;
+}
+
+/*PAGINA 4 Contacto*/
+#lista {
+    margin-left: -20px;
+}
+
+#contacto {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+}
+
+#bloque:hover {
+    color: teal
+}
+
+#caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Request textDocument/Symbol failed. Source CSS Language Features (Extension) es el error que me tira cuando quiero usar @media
+para la web responsive*/
